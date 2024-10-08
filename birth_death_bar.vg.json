@@ -1,0 +1,64 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {"text": "Malaysian Birth and Death Rate from 2000 to 2022"},
+    "data": {
+      "url": "https://raw.githubusercontent.com/Rickshaw0134/FIT3179-A2/refs/heads/main/birth_death.csv"
+    },
+    "params": [
+      {
+        "name": "birth_death_highlight",
+        "select": {"type": "point", "fields": ["group"]},
+        "bind": "legend"
+      },
+      {
+    "name": "Year",
+    "value": 0,
+    "bind": {
+      "input": "range",
+      "min": 2000,
+      "max": 2022,
+      "step": 1,
+      "name": "Year: "
+        }
+      }
+    ],
+    "transform": [
+      {"filter": "datum.year > Year"}
+    ],
+    "mark": "bar",
+    "encoding": {
+      "x": {
+        "field": "year",
+        "type": "nominal",
+        "axis": {"title": "Year"}
+      },
+      "xOffset": {
+        "field": "group"
+      },
+      "y": {
+        "field": "rate",
+        "type": "quantitative",
+        "axis": {"title": "Rate"}
+      },
+      "color": {
+        "field": "group",
+        "type": "nominal",
+        "legend": {"title": "Group"},
+        "scale": {
+          "domain": ["birth", "death"],
+          "range": ["pink", "#90EE90"]
+        }
+      },
+      "opacity": {
+        "condition": {"param": "birth_death_highlight", "value": 1},
+        "value": 0.4
+      },
+      "tooltip": [
+        {"field": "year", "type": "nominal", "title": "Year"},
+        {"field": "rate", "type": "quantitative", "title": "Absolute Value"},
+        {"field": "group", "type": "nominal", "title": "Birth/Death Rate"}
+      ]
+    }
+  }
+  
+  

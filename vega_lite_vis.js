@@ -8,7 +8,12 @@ vegaEmbed("#line_chart", vg_2).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 
-    var vg_3 = "population_density_map.vg.json";
-    vegaEmbed("#choropleth_map", vg_3).then(function(result) {
-        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-        }).catch(console.error);
+var vg_3 = "population_density_map.vg.json";
+vegaEmbed("#choropleth_map", vg_3).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+var vg_4 = "ethnicity_pie.vg.json";
+vegaEmbed("#pie_chart", vg_4).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);

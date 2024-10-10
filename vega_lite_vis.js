@@ -22,3 +22,8 @@ var vg_5 = "population_pyramid.vg.json";
 vegaEmbed("#population_pyramid", vg_5).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
+
+var vg_6 = "state_pop_heatmap.vg.json";
+vegaEmbed("#heatmap", vg_6).then(function(result) {
+// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+}).catch(console.error);

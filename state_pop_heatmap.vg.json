@@ -1,0 +1,35 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "https://raw.githubusercontent.com/Rickshaw0134/FIT3179-A2/refs/heads/main/state_population.csv"},
+    "transform": [
+      {
+        "calculate": "datum.population * 1000",
+        "as": "exact_population"
+      }
+    ],
+    "mark": "rect",
+    "encoding": {
+      "y": {"field": "state", "type": "nominal"},
+      "x": {"field": "year", "type": "nominal"},
+      "color": {
+        "field": "population",
+        "type": "quantitative",
+        "title": "Population",
+        "scale": {
+          "scheme": "blues",
+          "type": "quantize",
+          "domain": [-500, 5000],
+          "range": ["#f7fbff", "#deebf7", "#c6dbef", "#9ecae1", "#6baed6", "#4292c6", "#2171b5", "#08519c", "#08306b", "#041d49"]
+          }
+        },
+      "tooltip": [
+        {"field": "year", "type": "nominal", "title": "Year"},
+        {"field": "state", "type": "nominal", "title": "State"},
+        {"field": "exact_population", "type": "quantitative", "title": "Total Population", "format": ","}
+      ]
+    },
+  
+    "config": {
+      "axis": {"grid": true, "tickBand": "extent"}
+    }
+  }

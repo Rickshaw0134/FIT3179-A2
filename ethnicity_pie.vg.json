@@ -1,6 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {"text": "Population Distribution by Ethnicity in Malaysia"},
+  "width": 350,
+  "height": 360,
   "data": {
     "url": "https://raw.githubusercontent.com/Rickshaw0134/FIT3179-A2/refs/heads/main/ethnicity_data.csv",  
     "format": {"type": "csv"}

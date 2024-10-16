@@ -1,0 +1,391 @@
+state,date,sex,age,ethnicity,population,area,year,Population_absolute
+Johor,01/01/2000,both,overall,overall,2762.5,19210,2000,2762500
+Kedah,01/01/2000,both,overall,overall,1671.9,9500,2000,1671900
+Kelantan,01/01/2000,both,overall,overall,1361.4,15099,2000,1361400
+Melaka,01/01/2000,both,overall,overall,646.6,1664,2000,646600
+Negeri Sembilan,01/01/2000,both,overall,overall,866.1,6686,2000,866100
+Pahang,01/01/2000,both,overall,overall,1295.8,36137,2000,1295800
+Perak,01/01/2000,both,overall,overall,2091.7,21035,2000,2091700
+Perlis,01/01/2000,both,overall,overall,207.6,821,2000,207600
+Pulau Pinang,01/01/2000,both,overall,overall,1332.7,1048,2000,1332700
+Sabah,01/01/2000,both,overall,overall,2603.5,73631,2000,2603500
+Sarawak,01/01/2000,both,overall,overall,2071.5,124450,2000,2071500
+Selangor,01/01/2000,both,overall,overall,4188.9,8104,2000,4188900
+Terengganu,01/01/2000,both,overall,overall,902.6,13035,2000,902600
+Kuala Lumpur,01/01/2000,both,overall,overall,1416,243,2000,1416000
+Labuan,01/01/2000,both,overall,overall,76.1,91,2000,76100
+Johor,01/01/2001,both,overall,overall,2829.9,19210,2001,2829900
+Kedah,01/01/2001,both,overall,overall,1703.9,9500,2001,1703900
+Kelantan,01/01/2001,both,overall,overall,1390,15099,2001,1390000
+Melaka,01/01/2001,both,overall,overall,665.8,1664,2001,665800
+Negeri Sembilan,01/01/2001,both,overall,overall,883.7,6686,2001,883700
+Pahang,01/01/2001,both,overall,overall,1317.3,36137,2001,1317300
+Perak,01/01/2001,both,overall,overall,2129,21035,2001,2129000
+Perlis,01/01/2001,both,overall,overall,210.4,821,2001,210400
+Pulau Pinang,01/01/2001,both,overall,overall,1361,1048,2001,1361000
+Sabah,01/01/2001,both,overall,overall,2663.3,73631,2001,2663300
+Sarawak,01/01/2001,both,overall,overall,2115.6,124450,2001,2115600
+Selangor,01/01/2001,both,overall,overall,4317.5,8104,2001,4317500
+Terengganu,01/01/2001,both,overall,overall,920,13035,2001,920000
+Kuala Lumpur,01/01/2001,both,overall,overall,1446.2,243,2001,1446200
+Labuan,01/01/2001,both,overall,overall,77,91,2001,77000
+Johor,01/01/2002,both,overall,overall,2893.6,19210,2002,2893600
+Kedah,01/01/2002,both,overall,overall,1734.8,9500,2002,1734800
+Kelantan,01/01/2002,both,overall,overall,1416.7,15099,2002,1416700
+Melaka,01/01/2002,both,overall,overall,684.1,1664,2002,684100
+Negeri Sembilan,01/01/2002,both,overall,overall,900.3,6686,2002,900300
+Pahang,01/01/2002,both,overall,overall,1338.7,36137,2002,1338700
+Perak,01/01/2002,both,overall,overall,2161.8,21035,2002,2161800
+Perlis,01/01/2002,both,overall,overall,213.2,821,2002,213200
+Pulau Pinang,01/01/2002,both,overall,overall,1387.3,1048,2002,1387300
+Sabah,01/01/2002,both,overall,overall,2719.1,73631,2002,2719100
+Sarawak,01/01/2002,both,overall,overall,2158.3,124450,2002,2158300
+Selangor,01/01/2002,both,overall,overall,4446.3,8104,2002,4446300
+Terengganu,01/01/2002,both,overall,overall,936.6,13035,2002,936600
+Kuala Lumpur,01/01/2002,both,overall,overall,1474.1,243,2002,1474100
+Labuan,01/01/2002,both,overall,overall,77.8,91,2002,77800
+Johor,01/01/2003,both,overall,overall,2954,19210,2003,2954000
+Kedah,01/01/2003,both,overall,overall,1763.7,9500,2003,1763700
+Kelantan,01/01/2003,both,overall,overall,1440.5,15099,2003,1440500
+Melaka,01/01/2003,both,overall,overall,701.8,1664,2003,701800
+Negeri Sembilan,01/01/2003,both,overall,overall,916.8,6686,2003,916800
+Pahang,01/01/2003,both,overall,overall,1360,36137,2003,1360000
+Perak,01/01/2003,both,overall,overall,2192.1,21035,2003,2192100
+Perlis,01/01/2003,both,overall,overall,216,821,2003,216000
+Pulau Pinang,01/01/2003,both,overall,overall,1412.2,1048,2003,1412200
+Sabah,01/01/2003,both,overall,overall,2774,73631,2003,2774000
+Sarawak,01/01/2003,both,overall,overall,2199,124450,2003,2199000
+Selangor,01/01/2003,both,overall,overall,4577.3,8104,2003,4577300
+Terengganu,01/01/2003,both,overall,overall,951.4,13035,2003,951400
+Kuala Lumpur,01/01/2003,both,overall,overall,1500.5,243,2003,1500500
+Labuan,01/01/2003,both,overall,overall,78.7,91,2003,78700
+Johor,01/01/2004,both,overall,overall,3014.6,19210,2004,3014600
+Kedah,01/01/2004,both,overall,overall,1792.4,9500,2004,1792400
+Kelantan,01/01/2004,both,overall,overall,1463.8,15099,2004,1463800
+Melaka,01/01/2004,both,overall,overall,719.8,1664,2004,719800
+Negeri Sembilan,01/01/2004,both,overall,overall,933.7,6686,2004,933700
+Pahang,01/01/2004,both,overall,overall,1380.2,36137,2004,1380200
+Perak,01/01/2004,both,overall,overall,2222.1,21035,2004,2222100
+Perlis,01/01/2004,both,overall,overall,218.8,821,2004,218800
+Pulau Pinang,01/01/2004,both,overall,overall,1436.6,1048,2004,1436600
+Sabah,01/01/2004,both,overall,overall,2833.4,73631,2004,2833400
+Sarawak,01/01/2004,both,overall,overall,2240.4,124450,2004,2240400
+Selangor,01/01/2004,both,overall,overall,4712.8,8104,2004,4712800
+Terengganu,01/01/2004,both,overall,overall,966.6,13035,2004,966600
+Kuala Lumpur,01/01/2004,both,overall,overall,1526.4,243,2004,1526400
+Labuan,01/01/2004,both,overall,overall,79.7,91,2004,79700
+Johor,01/01/2005,both,overall,overall,3074.4,19210,2005,3074400
+Kedah,01/01/2005,both,overall,overall,1820.3,9500,2005,1820300
+Kelantan,01/01/2005,both,overall,overall,1486.3,15099,2005,1486300
+Melaka,01/01/2005,both,overall,overall,737.3,1664,2005,737300
+Negeri Sembilan,01/01/2005,both,overall,overall,950.3,6686,2005,950300
+Pahang,01/01/2005,both,overall,overall,1400.8,36137,2005,1400800
+Perak,01/01/2005,both,overall,overall,2251.1,21035,2005,2251100
+Perlis,01/01/2005,both,overall,overall,221.6,821,2005,221600
+Pulau Pinang,01/01/2005,both,overall,overall,1460.4,1048,2005,1460400
+Sabah,01/01/2005,both,overall,overall,2897,73631,2005,2897000
+Sarawak,01/01/2005,both,overall,overall,2282.4,124450,2005,2282400
+Selangor,01/01/2005,both,overall,overall,4849.6,8104,2005,4849600
+Terengganu,01/01/2005,both,overall,overall,981.4,13035,2005,981400
+Kuala Lumpur,01/01/2005,both,overall,overall,1551.8,243,2005,1551800
+Labuan,01/01/2005,both,overall,overall,80.8,91,2005,80800
+Johor,01/01/2006,both,overall,overall,3134.4,19210,2006,3134400
+Kedah,01/01/2006,both,overall,overall,1847.5,9500,2006,1847500
+Kelantan,01/01/2006,both,overall,overall,1507.6,15099,2006,1507600
+Melaka,01/01/2006,both,overall,overall,755,1664,2006,755000
+Negeri Sembilan,01/01/2006,both,overall,overall,967,6686,2006,967000
+Pahang,01/01/2006,both,overall,overall,1421.2,36137,2006,1421200
+Perak,01/01/2006,both,overall,overall,2279.3,21035,2006,2279300
+Perlis,01/01/2006,both,overall,overall,224.4,821,2006,224400
+Pulau Pinang,01/01/2006,both,overall,overall,1484.1,1048,2006,1484100
+Sabah,01/01/2006,both,overall,overall,2962.9,73631,2006,2962900
+Sarawak,01/01/2006,both,overall,overall,2324.9,124450,2006,2324900
+Selangor,01/01/2006,both,overall,overall,4986.2,8104,2006,4986200
+Terengganu,01/01/2006,both,overall,overall,995.9,13035,2006,995900
+Kuala Lumpur,01/01/2006,both,overall,overall,1577.5,243,2006,1577500
+Labuan,01/01/2006,both,overall,overall,82,91,2006,82000
+Johor,01/01/2007,both,overall,overall,3193.5,19210,2007,3193500
+Kedah,01/01/2007,both,overall,overall,1874.2,9500,2007,1874200
+Kelantan,01/01/2007,both,overall,overall,1529.1,15099,2007,1529100
+Melaka,01/01/2007,both,overall,overall,772.8,1664,2007,772800
+Negeri Sembilan,01/01/2007,both,overall,overall,983.5,6686,2007,983500
+Pahang,01/01/2007,both,overall,overall,1441.4,36137,2007,1441400
+Perak,01/01/2007,both,overall,overall,2306.4,21035,2007,2306400
+Perlis,01/01/2007,both,overall,overall,227.2,821,2007,227200
+Pulau Pinang,01/01/2007,both,overall,overall,1507.8,1048,2007,1507800
+Sabah,01/01/2007,both,overall,overall,3032.3,73631,2007,3032300
+Sarawak,01/01/2007,both,overall,overall,2366.1,124450,2007,2366100
+Selangor,01/01/2007,both,overall,overall,5127.1,8104,2007,5127100
+Terengganu,01/01/2007,both,overall,overall,1010.4,13035,2007,1010400
+Kuala Lumpur,01/01/2007,both,overall,overall,1603.3,243,2007,1603300
+Labuan,01/01/2007,both,overall,overall,83.2,91,2007,83200
+Johor,01/01/2008,both,overall,overall,3252.3,19210,2008,3252300
+Kedah,01/01/2008,both,overall,overall,1900.2,9500,2008,1900200
+Kelantan,01/01/2008,both,overall,overall,1549.8,15099,2008,1549800
+Melaka,01/01/2008,both,overall,overall,790.5,1664,2008,790500
+Negeri Sembilan,01/01/2008,both,overall,overall,999.6,6686,2008,999600
+Pahang,01/01/2008,both,overall,overall,1461.6,36137,2008,1461600
+Perak,01/01/2008,both,overall,overall,2331.6,21035,2008,2331600
+Perlis,01/01/2008,both,overall,overall,230.1,821,2008,230100
+Pulau Pinang,01/01/2008,both,overall,overall,1531.3,1048,2008,1531300
+Sabah,01/01/2008,both,overall,overall,3105.1,73631,2008,3105100
+Sarawak,01/01/2008,both,overall,overall,2408.4,124450,2008,2408400
+Selangor,01/01/2008,both,overall,overall,5268.5,8104,2008,5268500
+Terengganu,01/01/2008,both,overall,overall,1025.2,13035,2008,1025200
+Kuala Lumpur,01/01/2008,both,overall,overall,1628.9,243,2008,1628900
+Labuan,01/01/2008,both,overall,overall,84.6,91,2008,84600
+Johor,01/01/2009,both,overall,overall,3309.4,19210,2009,3309400
+Kedah,01/01/2009,both,overall,overall,1925.3,9500,2009,1925300
+Kelantan,01/01/2009,both,overall,overall,1570,15099,2009,1570000
+Melaka,01/01/2009,both,overall,overall,807.8,1664,2009,807800
+Negeri Sembilan,01/01/2009,both,overall,overall,1014.9,6686,2009,1014900
+Pahang,01/01/2009,both,overall,overall,1481.7,36137,2009,1481700
+Perak,01/01/2009,both,overall,overall,2355.7,21035,2009,2355700
+Perlis,01/01/2009,both,overall,overall,233,821,2009,233000
+Pulau Pinang,01/01/2009,both,overall,overall,1554.3,1048,2009,1554300
+Sabah,01/01/2009,both,overall,overall,3181.1,73631,2009,3181100
+Sarawak,01/01/2009,both,overall,overall,2450.8,124450,2009,2450800
+Selangor,01/01/2009,both,overall,overall,5417.8,8104,2009,5417800
+Terengganu,01/01/2009,both,overall,overall,1040.7,13035,2009,1040700
+Kuala Lumpur,01/01/2009,both,overall,overall,1652.8,243,2009,1652800
+Labuan,01/01/2009,both,overall,overall,86.3,91,2009,86300
+Johor,01/01/2010,both,overall,overall,3362.9,19210,2010,3362900
+Kedah,01/01/2010,both,overall,overall,1949.3,9500,2010,1949300
+Kelantan,01/01/2010,both,overall,overall,1589.9,15099,2010,1589900
+Melaka,01/01/2010,both,overall,overall,823.6,1664,2010,823600
+Negeri Sembilan,01/01/2010,both,overall,overall,1029.5,6686,2010,1029500
+Pahang,01/01/2010,both,overall,overall,1501.9,36137,2010,1501900
+Perak,01/01/2010,both,overall,overall,2379,21035,2010,2379000
+Perlis,01/01/2010,both,overall,overall,235.8,821,2010,235800
+Pulau Pinang,01/01/2010,both,overall,overall,1575.9,1048,2010,1575900
+Sabah,01/01/2010,both,overall,overall,3260,73631,2010,3260000
+Sarawak,01/01/2010,both,overall,overall,2487.1,124450,2010,2487100
+Selangor,01/01/2010,both,overall,overall,5502.1,8104,2010,5502100
+Terengganu,01/01/2010,both,overall,overall,1055.4,13035,2010,1055400
+Kuala Lumpur,01/01/2010,both,overall,overall,1674.8,243,2010,1674800
+Labuan,01/01/2010,both,overall,overall,88.2,91,2010,88200
+Putrajaya,01/01/2010,both,overall,overall,73.4,49,2010,73400
+Johor,01/01/2011,both,overall,overall,3410.5,19210,2011,3410500
+Kedah,01/01/2011,both,overall,overall,1971.8,9500,2011,1971800
+Kelantan,01/01/2011,both,overall,overall,1618.8,15099,2011,1618800
+Melaka,01/01/2011,both,overall,overall,833.2,1664,2011,833200
+Negeri Sembilan,01/01/2011,both,overall,overall,1047.4,6686,2011,1047400
+Pahang,01/01/2011,both,overall,overall,1526.8,36137,2011,1526800
+Perak,01/01/2011,both,overall,overall,2402.7,21035,2011,2402700
+Perlis,01/01/2011,both,overall,overall,237.3,821,2011,237300
+Pulau Pinang,01/01/2011,both,overall,overall,1601,1048,2011,1601000
+Sabah,01/01/2011,both,overall,overall,3345.5,73631,2011,3345500
+Sarawak,01/01/2011,both,overall,overall,2527.9,124450,2011,2527900
+Selangor,01/01/2011,both,overall,overall,5600.3,8104,2011,5600300
+Terengganu,01/01/2011,both,overall,overall,1079,13035,2011,1079000
+Kuala Lumpur,01/01/2011,both,overall,overall,1693,243,2011,1693000
+Labuan,01/01/2011,both,overall,overall,89.4,91,2011,89400
+Putrajaya,01/01/2011,both,overall,overall,77.5,49,2011,77500
+Johor,01/01/2012,both,overall,overall,3450.4,19210,2012,3450400
+Kedah,01/01/2012,both,overall,overall,2001.1,9500,2012,2001100
+Kelantan,01/01/2012,both,overall,overall,1651,15099,2012,1651000
+Melaka,01/01/2012,both,overall,overall,843.2,1664,2012,843200
+Negeri Sembilan,01/01/2012,both,overall,overall,1057.7,6686,2012,1057700
+Pahang,01/01/2012,both,overall,overall,1547.1,36137,2012,1547100
+Perak,01/01/2012,both,overall,overall,2427,21035,2012,2427000
+Perlis,01/01/2012,both,overall,overall,239.4,821,2012,239400
+Pulau Pinang,01/01/2012,both,overall,overall,1623.2,1048,2012,1623200
+Sabah,01/01/2012,both,overall,overall,3432.7,73631,2012,3432700
+Sarawak,01/01/2012,both,overall,overall,2569.7,124450,2012,2569700
+Selangor,01/01/2012,both,overall,overall,5702.4,8104,2012,5702400
+Terengganu,01/01/2012,both,overall,overall,1094.1,13035,2012,1094100
+Kuala Lumpur,01/01/2012,both,overall,overall,1702.1,243,2012,1702100
+Labuan,01/01/2012,both,overall,overall,90.5,91,2012,90500
+Putrajaya,01/01/2012,both,overall,overall,78.3,49,2012,78300
+Johor,01/01/2013,both,overall,overall,3474.4,19210,2013,3474400
+Kedah,01/01/2013,both,overall,overall,2039.8,9500,2013,2039800
+Kelantan,01/01/2013,both,overall,overall,1683.5,15099,2013,1683500
+Melaka,01/01/2013,both,overall,overall,856.7,1664,2013,856700
+Negeri Sembilan,01/01/2013,both,overall,overall,1072.2,6686,2013,1072200
+Pahang,01/01/2013,both,overall,overall,1568.7,36137,2013,1568700
+Perak,01/01/2013,both,overall,overall,2447.2,21035,2013,2447200
+Perlis,01/01/2013,both,overall,overall,242.1,821,2013,242100
+Pulau Pinang,01/01/2013,both,overall,overall,1662.6,1048,2013,1662600
+Sabah,01/01/2013,both,overall,overall,3611.5,73631,2013,3611500
+Sarawak,01/01/2013,both,overall,overall,2642.5,124450,2013,2642500
+Selangor,01/01/2013,both,overall,overall,5904.7,8104,2013,5904700
+Terengganu,01/01/2013,both,overall,overall,1113.4,13035,2013,1113400
+Kuala Lumpur,01/01/2013,both,overall,overall,1723.4,243,2013,1723400
+Labuan,01/01/2013,both,overall,overall,91.4,91,2013,91400
+Putrajaya,01/01/2013,both,overall,overall,79.7,49,2013,79700
+Johor,01/01/2014,both,overall,overall,3559.8,19210,2014,3559800
+Kedah,01/01/2014,both,overall,overall,2062.7,9500,2014,2062700
+Kelantan,01/01/2014,both,overall,overall,1723.4,15099,2014,1723400
+Melaka,01/01/2014,both,overall,overall,871.7,1664,2014,871700
+Negeri Sembilan,01/01/2014,both,overall,overall,1079.6,6686,2014,1079600
+Pahang,01/01/2014,both,overall,overall,1591.7,36137,2014,1591700
+Perak,01/01/2014,both,overall,overall,2458.8,21035,2014,2458800
+Perlis,01/01/2014,both,overall,overall,245.1,821,2014,245100
+Pulau Pinang,01/01/2014,both,overall,overall,1678.1,1048,2014,1678100
+Sabah,01/01/2014,both,overall,overall,3669.9,73631,2014,3669900
+Sarawak,01/01/2014,both,overall,overall,2664,124450,2014,2664000
+Selangor,01/01/2014,both,overall,overall,6051.3,8104,2014,6051300
+Terengganu,01/01/2014,both,overall,overall,1140.4,13035,2014,1140400
+Kuala Lumpur,01/01/2014,both,overall,overall,1737.4,243,2014,1737400
+Labuan,01/01/2014,both,overall,overall,93.8,91,2014,93800
+Putrajaya,01/01/2014,both,overall,overall,80.9,49,2014,80900
+Johor,01/01/2015,both,overall,overall,3610.3,19210,2015,3610300
+Kedah,01/01/2015,both,overall,overall,2096.5,9500,2015,2096500
+Kelantan,01/01/2015,both,overall,overall,1760.6,15099,2015,1760600
+Melaka,01/01/2015,both,overall,overall,889,1664,2015,889000
+Negeri Sembilan,01/01/2015,both,overall,overall,1088.8,6686,2015,1088800
+Pahang,01/01/2015,both,overall,overall,1607.9,36137,2015,1607900
+Perak,01/01/2015,both,overall,overall,2466.9,21035,2015,2466900
+Perlis,01/01/2015,both,overall,overall,248.5,821,2015,248500
+Pulau Pinang,01/01/2015,both,overall,overall,1698.1,1048,2015,1698100
+Sabah,01/01/2015,both,overall,overall,3720.5,73631,2015,3720500
+Sarawak,01/01/2015,both,overall,overall,2701.5,124450,2015,2701500
+Selangor,01/01/2015,both,overall,overall,6178,8104,2015,6178000
+Terengganu,01/01/2015,both,overall,overall,1161,13035,2015,1161000
+Kuala Lumpur,01/01/2015,both,overall,overall,1780.4,243,2015,1780400
+Labuan,01/01/2015,both,overall,overall,95.1,91,2015,95100
+Putrajaya,01/01/2015,both,overall,overall,83,49,2015,83000
+Johor,01/01/2016,both,overall,overall,3651.8,19210,2016,3651800
+Kedah,01/01/2016,both,overall,overall,2119.7,9500,2016,2119700
+Kelantan,01/01/2016,both,overall,overall,1796.7,15099,2016,1796700
+Melaka,01/01/2016,both,overall,overall,901.1,1664,2016,901100
+Negeri Sembilan,01/01/2016,both,overall,overall,1099.3,6686,2016,1099300
+Pahang,01/01/2016,both,overall,overall,1626.7,36137,2016,1626700
+Perak,01/01/2016,both,overall,overall,2482.1,21035,2016,2482100
+Perlis,01/01/2016,both,overall,overall,251,821,2016,251000
+Pulau Pinang,01/01/2016,both,overall,overall,1717.7,1048,2016,1717700
+Sabah,01/01/2016,both,overall,overall,3802.8,73631,2016,3802800
+Sarawak,01/01/2016,both,overall,overall,2738.7,124450,2016,2738700
+Selangor,01/01/2016,both,overall,overall,6291.5,8104,2016,6291500
+Terengganu,01/01/2016,both,overall,overall,1183.4,13035,2016,1183400
+Kuala Lumpur,01/01/2016,both,overall,overall,1789.7,243,2016,1789700
+Labuan,01/01/2016,both,overall,overall,96.8,91,2016,96800
+Putrajaya,01/01/2016,both,overall,overall,84.4,49,2016,84400
+Johor,01/01/2017,both,overall,overall,3697,19210,2017,3697000
+Kedah,01/01/2017,both,overall,overall,2143.9,9500,2017,2143900
+Kelantan,01/01/2017,both,overall,overall,1829,15099,2017,1829000
+Melaka,01/01/2017,both,overall,overall,913.1,1664,2017,913100
+Negeri Sembilan,01/01/2017,both,overall,overall,1114,6686,2017,1114000
+Pahang,01/01/2017,both,overall,overall,1647,36137,2017,1647000
+Perak,01/01/2017,both,overall,overall,2493.2,21035,2017,2493200
+Perlis,01/01/2017,both,overall,overall,252,821,2017,252000
+Pulau Pinang,01/01/2017,both,overall,overall,1744.1,1048,2017,1744100
+Sabah,01/01/2017,both,overall,overall,3855.9,73631,2017,3855900
+Sarawak,01/01/2017,both,overall,overall,2766.3,124450,2017,2766300
+Selangor,01/01/2017,both,overall,overall,6380.7,8104,2017,6380700
+Terengganu,01/01/2017,both,overall,overall,1208,13035,2017,1208000
+Kuala Lumpur,01/01/2017,both,overall,overall,1793.2,243,2017,1793200
+Labuan,01/01/2017,both,overall,overall,97.6,91,2017,97600
+Putrajaya,01/01/2017,both,overall,overall,87.5,49,2017,87500
+Johor,01/01/2018,both,overall,overall,3749.4,19210,2018,3749400
+Kedah,01/01/2018,both,overall,overall,2163,9500,2018,2163000
+Kelantan,01/01/2018,both,overall,overall,1860.5,15099,2018,1860500
+Melaka,01/01/2018,both,overall,overall,922.4,1664,2018,922400
+Negeri Sembilan,01/01/2018,both,overall,overall,1122.9,6686,2018,1122900
+Pahang,01/01/2018,both,overall,overall,1664.7,36137,2018,1664700
+Perak,01/01/2018,both,overall,overall,2503.5,21035,2018,2503500
+Perlis,01/01/2018,both,overall,overall,253.5,821,2018,253500
+Pulau Pinang,01/01/2018,both,overall,overall,1762.8,1048,2018,1762800
+Sabah,01/01/2018,both,overall,overall,3898.4,73631,2018,3898400
+Sarawak,01/01/2018,both,overall,overall,2791.7,124450,2018,2791700
+Selangor,01/01/2018,both,overall,overall,6475,8104,2018,6475000
+Terengganu,01/01/2018,both,overall,overall,1228.3,13035,2018,1228300
+Kuala Lumpur,01/01/2018,both,overall,overall,1790,243,2018,1790000
+Labuan,01/01/2018,both,overall,overall,99,91,2018,99000
+Putrajaya,01/01/2018,both,overall,overall,97.2,49,2018,97200
+Johor,01/01/2019,both,overall,overall,3761.2,19210,2019,3761200
+Kedah,01/01/2019,both,overall,overall,2173.7,9500,2019,2173700
+Kelantan,01/01/2019,both,overall,overall,1883.8,15099,2019,1883800
+Melaka,01/01/2019,both,overall,overall,928.4,1664,2019,928400
+Negeri Sembilan,01/01/2019,both,overall,overall,1126.2,6686,2019,1126200
+Pahang,01/01/2019,both,overall,overall,1671.4,36137,2019,1671400
+Perak,01/01/2019,both,overall,overall,2508.8,21035,2019,2508800
+Perlis,01/01/2019,both,overall,overall,254,821,2019,254000
+Pulau Pinang,01/01/2019,both,overall,overall,1768.8,1048,2019,1768800
+Sabah,01/01/2019,both,overall,overall,3904.4,73631,2019,3904400
+Sarawak,01/01/2019,both,overall,overall,2806,124450,2019,2806000
+Selangor,01/01/2019,both,overall,overall,6506.1,8104,2019,6506100
+Terengganu,01/01/2019,both,overall,overall,1244.5,13035,2019,1244500
+Kuala Lumpur,01/01/2019,both,overall,overall,1782.5,243,2019,1782500
+Labuan,01/01/2019,both,overall,overall,99.3,91,2019,99300
+Putrajaya,01/01/2019,both,overall,overall,103.7,49,2019,103700
+Johor,01/01/2020,both,overall,overall,4009.7,19210,2020,4009700
+Kedah,01/01/2020,both,overall,overall,2131.4,9500,2020,2131400
+Kelantan,01/01/2020,both,overall,overall,1792.5,15099,2020,1792500
+Melaka,01/01/2020,both,overall,overall,998.4,1664,2020,998400
+Negeri Sembilan,01/01/2020,both,overall,overall,1200,6686,2020,1200000
+Pahang,01/01/2020,both,overall,overall,1591.3,36137,2020,1591300
+Perak,01/01/2020,both,overall,overall,2496,21035,2020,2496000
+Perlis,01/01/2020,both,overall,overall,284.9,821,2020,284900
+Pulau Pinang,01/01/2020,both,overall,overall,1740.4,1048,2020,1740400
+Sabah,01/01/2020,both,overall,overall,3418.8,73631,2020,3418800
+Sarawak,01/01/2020,both,overall,overall,2453.7,124450,2020,2453700
+Selangor,01/01/2020,both,overall,overall,6994.4,8104,2020,6994400
+Terengganu,01/01/2020,both,overall,overall,1149.4,13035,2020,1149400
+Kuala Lumpur,01/01/2020,both,overall,overall,1982.1,243,2020,1982100
+Labuan,01/01/2020,both,overall,overall,95.1,91,2020,95100
+Putrajaya,01/01/2020,both,overall,overall,109.2,49,2020,109200
+Johor,01/01/2021,both,overall,overall,4020,19210,2021,4020000
+Kedah,01/01/2021,both,overall,overall,2151.7,9500,2021,2151700
+Kelantan,01/01/2021,both,overall,overall,1812.3,15099,2021,1812300
+Melaka,01/01/2021,both,overall,overall,1004.5,1664,2021,1004500
+Negeri Sembilan,01/01/2021,both,overall,overall,1204.2,6686,2021,1204200
+Pahang,01/01/2021,both,overall,overall,1601.5,36137,2021,1601500
+Perak,01/01/2021,both,overall,overall,2515.8,21035,2021,2515800
+Perlis,01/01/2021,both,overall,overall,287.6,821,2021,287600
+Pulau Pinang,01/01/2021,both,overall,overall,1740,1048,2021,1740000
+Sabah,01/01/2021,both,overall,overall,3412.6,73631,2021,3412600
+Sarawak,01/01/2021,both,overall,overall,2465.6,124450,2021,2465600
+Selangor,01/01/2021,both,overall,overall,7014.7,8104,2021,7014700
+Terengganu,01/01/2021,both,overall,overall,1170.7,13035,2021,1170700
+Kuala Lumpur,01/01/2021,both,overall,overall,1964,243,2021,1964000
+Labuan,01/01/2021,both,overall,overall,96,91,2021,96000
+Putrajaya,01/01/2021,both,overall,overall,115.2,49,2021,115200
+Johor,01/01/2022,both,overall,overall,4028.3,19210,2022,4028300
+Kedah,01/01/2022,both,overall,overall,2163.1,9500,2022,2163100
+Kelantan,01/01/2022,both,overall,overall,1830.6,15099,2022,1830600
+Melaka,01/01/2022,both,overall,overall,1008.6,1664,2022,1008600
+Negeri Sembilan,01/01/2022,both,overall,overall,1207.9,6686,2022,1207900
+Pahang,01/01/2022,both,overall,overall,1614.3,36137,2022,1614300
+Perak,01/01/2022,both,overall,overall,2514.4,21035,2022,2514400
+Perlis,01/01/2022,both,overall,overall,289.8,821,2022,289800
+Pulau Pinang,01/01/2022,both,overall,overall,1740.9,1048,2022,1740900
+Sabah,01/01/2022,both,overall,overall,3414.9,73631,2022,3414900
+Sarawak,01/01/2022,both,overall,overall,2473.5,124450,2022,2473500
+Selangor,01/01/2022,both,overall,overall,7050.3,8104,2022,7050300
+Terengganu,01/01/2022,both,overall,overall,1186.6,13035,2022,1186600
+Kuala Lumpur,01/01/2022,both,overall,overall,1961.2,243,2022,1961200
+Labuan,01/01/2022,both,overall,overall,96.9,91,2022,96900
+Putrajaya,01/01/2022,both,overall,overall,117,49,2022,117000
+Johor,01/01/2023,both,overall,overall,4107.2,19210,2023,4107200
+Kedah,01/01/2023,both,overall,overall,2189.3,9500,2023,2189300
+Kelantan,01/01/2023,both,overall,overall,1859.8,15099,2023,1859800
+Melaka,01/01/2023,both,overall,overall,1028.3,1664,2023,1028300
+Negeri Sembilan,01/01/2023,both,overall,overall,1224.9,6686,2023,1224900
+Pahang,01/01/2023,both,overall,overall,1643.2,36137,2023,1643200
+Perak,01/01/2023,both,overall,overall,2541.2,21035,2023,2541200
+Perlis,01/01/2023,both,overall,overall,293.1,821,2023,293100
+Pulau Pinang,01/01/2023,both,overall,overall,1772.6,1048,2023,1772600
+Sabah,01/01/2023,both,overall,overall,3596.7,73631,2023,3596700
+Sarawak,01/01/2023,both,overall,overall,2502.3,124450,2023,2502300
+Selangor,01/01/2023,both,overall,overall,7209.7,8104,2023,7209700
+Terengganu,01/01/2023,both,overall,overall,1210,13035,2023,1210000
+Kuala Lumpur,01/01/2023,both,overall,overall,2005.7,243,2023,2005700
+Labuan,01/01/2023,both,overall,overall,99,91,2023,99000
+Putrajaya,01/01/2023,both,overall,overall,118.8,49,2023,118800
+Johor,01/01/2024,both,overall,overall,4186.3,19210,2024,4186300
+Kedah,01/01/2024,both,overall,overall,2217.5,9500,2024,2217500
+Kelantan,01/01/2024,both,overall,overall,1888.5,15099,2024,1888500
+Melaka,01/01/2024,both,overall,overall,1047.1,1664,2024,1047100
+Negeri Sembilan,01/01/2024,both,overall,overall,1240.1,6686,2024,1240100
+Pahang,01/01/2024,both,overall,overall,1668.2,36137,2024,1668200
+Perak,01/01/2024,both,overall,overall,2569.6,21035,2024,2569600
+Perlis,01/01/2024,both,overall,overall,296.8,821,2024,296800
+Pulau Pinang,01/01/2024,both,overall,overall,1800.4,1048,2024,1800400
+Sabah,01/01/2024,both,overall,overall,3742.2,73631,2024,3742200
+Sarawak,01/01/2024,both,overall,overall,2518.1,124450,2024,2518100
+Selangor,01/01/2024,both,overall,overall,7363.4,8104,2024,7363400
+Terengganu,01/01/2024,both,overall,overall,1232.1,13035,2024,1232100
+Kuala Lumpur,01/01/2024,both,overall,overall,2067.5,243,2024,2067500
+Labuan,01/01/2024,both,overall,overall,100.8,91,2024,100800
+Putrajaya,01/01/2024,both,overall,overall,120.3,49,2024,120300

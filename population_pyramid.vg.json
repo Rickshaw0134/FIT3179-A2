@@ -68,7 +68,7 @@
           "2023",
           "2024"
         ],
-        "name": "Select Year: "
+        "name": "Year: "
       }
     },
     {
@@ -92,7 +92,7 @@
           "Bumi Other",
           "Other Citizen"
         ],
-        "name": "Select Ethnicity: "
+        "name": "Ethnicity: "
       }
     }
   ],

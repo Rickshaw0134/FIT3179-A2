@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": { "text": "Malaysian Population from 2000 to 2024" },
+  "title": {"text": "Malaysian Population from 2000 to 2024"},
   "height": 300,
-  "width":520,
+  "width": 520,
   "background": null,
   "data": {
     "url": "https://raw.githubusercontent.com/Rickshaw0134/HomeworkW10/refs/heads/main/malaysia_population.csv"
@@ -11,150 +11,70 @@
     {
       "name": "gender_selection",
       "bind": {
-        "input":"select",
-        "options": [
-        null,
-        "male",
-        "female",
-        "both"
-      ],
-      "labels":[
-        "Show All",
-        "Male",
-        "Female",
-        "Both"
-      ],
-      "name": "Gender Selection: "
+        "input": "select",
+        "options": [null, "male", "female", "both"],
+        "labels": ["Show All", "Male", "Female", "Both"],
+        "name": "Gender Selection: "
       }
     },
     {
-  "name": "Year",
-  "value": 0,
-  "bind": {
-    "input": "range",
-    "min": 2000,
-    "max": 2022,
-    "step": 1,
-    "name": "Year: "
-} }
-
+      "name": "Year",
+      "value": 0,
+      "bind": {
+        "input": "range",
+        "min": 2000,
+        "max": 2022,
+        "step": 1,
+        "name": "Year: "
+      }
+    },
+    {
+      "name": "hover",
+      "value": null,
+      "select": {
+        "type": "point",
+        "on": "mouseover",
+        "clear": "mouseout"
+      }
+    }
   ],
   "transform": [
     {"filter": "gender_selection == null || datum.sex == gender_selection"},
     {"filter": "datum.year > Year"},
-    {
-  "calculate": "datum.population * 1000",
-  "as": "actual population"}
+    {"calculate": "datum.population * 1000", "as": "actual_population"}
   ],
   "layer": [
     {
-      "mark": "line",
+      "mark": "area",
       "encoding": {
-        "x": { "field": "year", "type": "nominal" },
-        "y": { "field": "population", "type": "quantitative", "axis": {
-      "title": "Population (1000s)"
-    } },
-        "color": { 
-          "field": "sex", 
-          "type": "nominal", 
+        "x": {"field": "year", "type": "nominal"},
+        "y": {
+          "field": "population",
+          "type": "quantitative",
+          "axis": {"title": "Population (1000s)"}
+        },
+        "color": {
+          "field": "sex",
+          "type": "nominal",
           "title": "Sex",
           "scale": {
-            "domain":[
-              "male",
-              "female",
-              "both"
-            ],
-          "range": [
-            "#0033CC", 
-            "#e41a1c", 
-            "#2ca02c"
-              ]
-            }
+            "domain": ["male", "female", "both"],
+            "range": ["#4A90E2", "#FF6F61", "#6FCF9B"]
+          }
+        },
+        "opacity": {
+          "condition": {
+            "param": "hover",
+            "value": 1,
+            "test": "datum.sex === hover.sex"
           },
+          "value": 0.5
+        },
         "tooltip": [
-          { "field": "year", "type": "quantitative" },
-          {
-            "field": "actual population",
-            "type": "quantitative",
-            "format": ","
-          },
-          { "field": "sex", "type": "nominal" }
+          {"field": "year", "type": "quantitative"},
+          {"field": "actual_population", "type": "quantitative", "format": ","},
+          {"field": "sex", "type": "nominal"}
         ]
-      }
-    },
-    {
-      "mark": {
-        "type": "text",
-        "align": "left",
-        "dx": 80,
-        "dy": -60
-      },
-      "encoding": {
-        "x": {
-          "signal": "year",
-          "type": "quantitative"
-        },
-        "text": { "value": "Population remained stagnant in" }
-      }
-    },
-    {
-      "mark": {
-        "type": "text",
-        "align": "left",
-        "dx": 80,
-        "dy": -45
-      },
-      "encoding": {
-        "x": {
-          "signal": "year",
-          "type": "quantitative"
-        },
-        "text": { "value": "2020 as covid was prevalent so" }
-      }
-    },
-    {
-      "mark": {
-        "type": "text",
-        "align": "left",
-        "dx": 80,
-        "dy": -30
-      },
-      "encoding": {
-        "x": {
-          "signal": "year",
-          "type": "quantitative"
-        },
-        "text": { "value": "citizens could not leave their houses" }
-      }
-    },
-    {
-      "mark": {
-        "type": "text",
-        "align": "left",
-        "dx": -240,
-        "dy": -10
-      },
-      "encoding": {
-        "x": {
-          "signal": "year",
-          "type": "quantitative"
-        },
-        "text": { "value": "General increase in population from 2000 to 2024" }
-      }
-    },
-    {
-      "mark": {
-        "type": "text",
-        "align": "left",
-        "dx": -120,
-        "dy": 60
-      },
-      "encoding": {
-        "x": {
-          "signal": "year",
-          "type": "quantitative"
-        },
-        "text": { "value": "Significant increase in males than females in malaysia from 1994 onwards" }
       }
     }
   ]

@@ -1,94 +1,181 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description": "Age pyramid showing population distribution by age and sex",
-    "title": "Population Pyramid of Malaysia by Age and Gender", 
-    "width": 500,
-    "height": 300,
-    "background": null,
-    "data": {
-      "url": "https://raw.githubusercontent.com/Rickshaw0134/FIT3179-A2/refs/heads/main/population_age_group.csv"
-    },
-    "params": [
-      {
-        "value": 2000,
-        "name": "year_selection",
-          "bind": {
-            "input": "select", 
-            "options": [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024],
-            "labels": [
-              "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"
-            ],
-            "name": "Select Year: "
-          }
-      },
-      {
-        "value": "overall",
-        "name": "ethnicity_selection",
-          "bind": {
-            "input": "select", 
-            "options": [null, "chinese", "indian", "bumi_malay", "bumi_other", "other_citizen"],
-            "labels": [
-              "Overall", "Chinese", "Indian", "Bumi Malay", "Bumi Other", "Other Citizen" 
-            ],
-            "name": "Select Ethnicity: "
-          }
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Age pyramid showing population distribution by age and sex",
+  "title": "Population Pyramid of Malaysia by Age and Gender",
+  "width": 500,
+  "height": 300,
+  "background": null,
+  "data": {
+    "url": "https://raw.githubusercontent.com/Rickshaw0134/FIT3179-A2/refs/heads/main/population_age_group.csv"
+  },
+  "params": [
+    {
+      "value": 2000,
+      "name": "year_selection",
+      "bind": {
+        "input": "select",
+        "options": [
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "labels": [
+          "2000",
+          "2001",
+          "2002",
+          "2003",
+          "2004",
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024"
+        ],
+        "name": "Select Year: "
       }
-    ],
-    "transform": [
-      {
-        "calculate": "datum.sex === 'male' ? -datum.population : datum.population",
-        "as": "population_pyramid"
-      },
-      {"filter": "year_selection == null || datum.year == year_selection"},
-      {
+    },
+    {
+      "value": "overall",
+      "name": "ethnicity_selection",
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "chinese",
+          "indian",
+          "bumi_malay",
+          "bumi_other",
+          "other_citizen"
+        ],
+        "labels": [
+          "Overall",
+          "Chinese",
+          "Indian",
+          "Bumi Malay",
+          "Bumi Other",
+          "Other Citizen"
+        ],
+        "name": "Select Ethnicity: "
+      }
+    }
+  ],
+  "transform": [
+    {
+      "calculate": "datum.sex === 'male' ? -datum.population : datum.population",
+      "as": "population_pyramid"
+    },
+    {"filter": "year_selection == null || datum.year == year_selection"},
+    {
       "calculate": "datum.ethnicity == 'bumi_malay' ? 'Bumi Malay' : datum.ethnicity == 'bumi_other' ? 'Bumi Other' : datum.ethnicity == 'chinese' ? 'Chinese' : datum.ethnicity == 'indian' ? 'Indian' : datum.ethnicity == 'overall' ? 'Overall' : 'Other Citizen'",
       "as": "ethnicity_label"
-      },
-      {
-        "calculate": "datum.population * 1000",
-        "as": "exact_population"
-      },
-      {"filter": "ethnicity_selection == null || datum.ethnicity == ethnicity_selection"}
-    ],
-    "mark": "bar",
-    "encoding": {
-      "y": {
-        "field": "age",
-        "type": "ordinal",
-        "axis": {
-          "title": "Age Group"
-        },
-        "sort": [
-          "85+", "80-84", "75-79", "70-74", "65-69", 
-          "60-64", "55-59", "50-54", "45-49", "40-44", 
-          "35-39", "30-34", "25-29", "20-24", "15-19", 
-          "10-14", "5-9", "0-4"
-        ]
-      },
-      "x": {
-        "field": "population_pyramid",
-        "type": "quantitative",
-        "axis": {
-          "title": null,
-          "labels": false 
-        }
-      },
-      "color": {
-        "field": "sex",
-        "type": "nominal",
-        "scale": {
-          "domain": ["male", "female"],
-          "range": ["#0033CC", "#e41a1c"]
-        },
-        "legend": {
-          "title": "Sex"
-        }
-      },
-      "tooltip": [
-        {"field": "year", "type": "nominal", "title": "Year"},
-        {"field": "ethnicity_label", "type": "nominal", "title": "Ethnicity"},
-        {"field": "exact_population", "type": "quantitative", "title": "Population", "format": ","}
+    },
+    {"calculate": "datum.population * 1000", "as": "exact_population"},
+    {
+      "filter": "ethnicity_selection == null || datum.ethnicity == ethnicity_selection"
+    }
+  ],
+  "mark": {
+    "type": "bar",
+    "tooltip": true
+  },
+  "encoding": {
+    "y": {
+      "field": "age",
+      "type": "ordinal",
+      "axis": {"title": "Age Group"},
+      "sort": [
+        "85+",
+        "80-84",
+        "75-79",
+        "70-74",
+        "65-69",
+        "60-64",
+        "55-59",
+        "50-54",
+        "45-49",
+        "40-44",
+        "35-39",
+        "30-34",
+        "25-29",
+        "20-24",
+        "15-19",
+        "10-14",
+        "5-9",
+        "0-4"
       ]
+    },
+    "x": {
+      "field": "population_pyramid",
+      "type": "quantitative",
+      "axis": {"title": null, "labels": false}
+    },
+    "color": {
+      "field": "sex",
+      "type": "nominal",
+      "scale": {"domain": ["male", "female"], "range": ["#4A90E2", "#FF6F61"]},
+      "legend": {"title": "Sex"}
+    },
+    "opacity": {
+      "condition": {
+        "param": "hover_selection",
+        "value": 1
+      },
+      "value": 0.3
+    },
+    "tooltip": [
+      {"field": "year", "type": "nominal", "title": "Year"},
+      {"field": "ethnicity_label", "type": "nominal", "title": "Ethnicity"},
+      {
+        "field": "exact_population",
+        "type": "quantitative",
+        "title": "Population",
+        "format": ","
+      }
+    ]
+  },
+  "selection": {
+    "hover_selection": {
+      "type": "single",
+      "fields": ["sex", "age"],
+      "on": "mouseover",
+      "empty": "all"
     }
   }
-  
+}

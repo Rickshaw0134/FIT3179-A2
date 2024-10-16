@@ -1,6 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": {"text": "Malaysian Birth and Death Rate from 2000 to 2022"},
+    "height": 300,
     "data": {
       "url": "https://raw.githubusercontent.com/Rickshaw0134/FIT3179-A2/refs/heads/main/birth_death.csv"
     },

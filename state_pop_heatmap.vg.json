@@ -1,6 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "data": {"url": "https://raw.githubusercontent.com/Rickshaw0134/FIT3179-A2/refs/heads/main/state_population.csv"},
+    "height": 400,
+    "width": 400,
     "transform": [
       {
         "calculate": "datum.population * 1000",

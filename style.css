@@ -24,6 +24,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px; /* Optional: Adds space between the charts */
+    gap: 20px; /* Optional: Adds space between the charts */
     margin-top: 20px;
 }

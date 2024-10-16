@@ -3,6 +3,7 @@
     "description": "Age pyramid showing population distribution by age and sex",
     "title": "Population Pyramid of Malaysia by Age and Gender", 
     "width": 500,
+    "height": 300,
     "data": {
       "url": "https://raw.githubusercontent.com/Rickshaw0134/FIT3179-A2/refs/heads/main/population_age_group.csv"
     },

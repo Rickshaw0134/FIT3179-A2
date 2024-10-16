@@ -1,6 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": { "text": "Malaysian Population from 2000 to 2024" },
+  "height": 300,
+  "width":520,
   "data": {
     "url": "https://raw.githubusercontent.com/Rickshaw0134/HomeworkW10/refs/heads/main/malaysia_population.csv"
   },

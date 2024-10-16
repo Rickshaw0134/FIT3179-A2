@@ -3,6 +3,7 @@
   "title": {"text": "Population Distribution by Ethnicity in Malaysia"},
   "width": 350,
   "height": 300,
+  "background": null,
   "data": {
     "url": "https://raw.githubusercontent.com/Rickshaw0134/FIT3179-A2/refs/heads/main/ethnicity_data.csv",  
     "format": {"type": "csv"}
@@ -56,7 +57,7 @@
       "field": "ethnicity_label",
       "type": "nominal",
       "scale": {
-        "range": ["#88CCEE", "#DDCC77", "#CC6677", "#117733", "#332288"]  
+        "range": ["#0072B2", "#D95F02", "#F0E442", "#CC79A7", "#56B4E9"] 
       },
       "legend": {"title": "Ethnicity"}
     },

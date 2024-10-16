@@ -4,6 +4,7 @@
     "title": "Population Pyramid of Malaysia by Age and Gender", 
     "width": 500,
     "height": 300,
+    "background": null,
     "data": {
       "url": "https://raw.githubusercontent.com/Rickshaw0134/FIT3179-A2/refs/heads/main/population_age_group.csv"
     },
@@ -68,7 +69,7 @@
         "field": "population_pyramid",
         "type": "quantitative",
         "axis": {
-          "title": "Population",
+          "title": null,
           "labels": false 
         }
       },

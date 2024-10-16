@@ -11,10 +11,27 @@
     <script src="vega_lite_vis.js"></script>
     <title>Visualisation of Malaysia's Population</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville&family=Montserrat&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+          background-color: #e1e0e9; /* Light blue color, adjust as needed */
+        }
+
+        .chart-container {
+            background-color: inherit;
+        }
+
+        #line_chart {
+            background-color: transparent;
+        }
+    </style>
 </head>
 <body>
     <h1 class="centered-heading">Malaysia's Population: Trends, Diversity & Growth</h1>
-    <p class="centered-paragraph">Malaysia, located in Southeast Asia, has experienced significant population growth recently. 
+    <p class="centered-paragraph1">Malaysia, located in Southeast Asia, has experienced significant population growth recently. 
         Currently, the country’s population is around 33 million, as of 2023. 
         This growth has been driven by increasing urbanization, improved healthcare, and rising economic development. 
         Although the population growth rate is slowing, it is still projected to continue in the coming years. 
@@ -32,16 +49,31 @@
         <div id="population_pyramid"></div>
         <div id="pie_chart"></div>
     </div>
-    <p class="centered-paragraph">Malaysia's population is a rich blend of ethnic and cultural diversity. 
+    <p class="centered-paragraph2">Malaysia's population is a rich blend of ethnic and cultural diversity. 
         The age pyramid clearly illustrates a balanced distribution of males and females across various age groups, which highlights a growing and dynamic society. 
         Additionally, it reflects an aging population, which will eventually impact the future workforce. 
         Moreover, the pie chart further emphasizes this diversity, with the Bumi Malay representing the largest group. 
         Meanwhile, significant Chinese, Indian, and other ethnic communities contribute to Malaysia's multi-ethnic composition. 
-        Together, these groups shape the country's unique cultural and social fabric, ultimately strengthening its unity and economic development.</p>
+        Together, these groups shape the country's unique cultural and social fabric, ultimately strengthening its unity and economic development.
+    </p>
     <h2 class="centered-heading">Population Density by State & Year</h2>
     <div class="chart-container">
         <div id="choropleth_map"></div>
     </div>
+    <p class="centered-paragraph2">
+        Malaysia’s population density shows notable variation across different states. 
+        The western region, particularly Selangor and Kuala Lumpur, has the highest density. 
+        This is indicated by the darker blue shades on the map. 
+        In contrast, the eastern states, such as Sabah and Sarawak, have much lower density. 
+        These states are represented by lighter green colors.
+    </p>
+    <p class="centered-paragraph2">
+        The heatmap below also illustrates the absolute population by state and year. 
+        Selangor, Johor, and Perak consistently show large populations, seen in the darker boxes. 
+        Meanwhile, states like Perlis and Melaka have relatively smaller populations. 
+        Together, the chart and heatmap highlight Malaysia’s population distribution. 
+        Urban regions are more densely populated compared to rural and less developed areas.
+    </p>
     <div class="chart-container">
         <div id="heatmap"></div>
     </div>
